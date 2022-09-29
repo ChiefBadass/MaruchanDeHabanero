@@ -17,7 +17,7 @@ public class Estado {
      */
     public String estadoClave(String estado){
         String claveUnica = "";
-        estado = estado.replace("á","a").replace("é","e").replace("í","i").replace("ó","o").replace("ú","u").toUpperCase();
+        estado = estado.replace(" ", "").replace("á","a").replace("é","e").replace("í","i").replace("ó","o").replace("ú","u").toUpperCase();
         String estadoConClave = "Aguascalientes AS,BajaCalifornia BC,BajaCaliforniasu BS,Campache CC,Coahuila CL,Colima CM,Chiapas CS,Chihuahua CH,DistritoFederal DF,Durango DG,Guanajuato GT,Guerrero GR,Hidalgo HG,Jalisco JC,Mexico MC,Michoacan MN,Morelos MS,Nayarit NT,NuevoLeon NL,Oaxaca OC,Puebla PL,Queretaro QT,QuintanaRoo QR,SanLuisPotosi SP,Sinaloa SL,Sonora SR,Tabasco TC,Tamaulipas TS,Tlaxcala TL,Veracruz VZ,Yucatan YN,Zacatecas ZS,Nacidoenelextranjero NE";
         String[] estados = estadoConClave.toUpperCase().split(",");
          for(String a : estados){
