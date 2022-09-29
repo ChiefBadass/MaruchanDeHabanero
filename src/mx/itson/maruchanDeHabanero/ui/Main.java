@@ -6,9 +6,6 @@
 package mx.itson.maruchanDeHabanero.ui;
 
 
-
-import mx.itson.maruchanDeHabanero.negocio.Estado;
-
 import mx.itson.maruchanDeHabanero.negocio.Operacion;
 
 /**

@@ -134,7 +134,7 @@ public class Operacion {
         }else{
             curp+="M";
         }
-        //Se agrega el sexo de la persona.
+        //Se agrega el estado de la persona.
         curp+= estados.estadoClave(estado);
         //Ciclos for y condicional para determinar la primera consonate no inicial del primer apellido.
         for(int b = primerApe.length - 1; b>=1; b--){
